@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Md. Motasim Bin Kamal — AI Automation Engineer &amp; Agent Developer</title>
+<meta name="description" content="AI Automation Engineer building voice agents, n8n workflows, and RAG pipelines. 20+ years of enterprise infrastructure discipline applied to production-grade AI systems.">
+<meta name="keywords" content="AI Automation Engineer, AI Agent Developer, n8n, Retell AI, Voice Agents, RAG, Workflow Automation, Motasim Bin Kamal">
+<meta name="author" content="Md. Motasim Bin Kamal">
+<link rel="canonical" href="https://motasimbinkamal.dev/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Md. Motasim Bin Kamal — AI Automation Engineer">
+<meta property="og:description" content="Building production-grade AI agents, voice automation systems, and n8n workflow pipelines. 20+ years of enterprise engineering discipline.">
+<meta property="og:url" content="https://motasimbinkamal.dev/">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Md. Motasim Bin Kamal — AI Automation Engineer">
+<meta name="twitter:description" content="Building production-grade AI agents, voice automation systems, and n8n workflow pipelines.">
+<meta name="twitter:image" content="assets/images/og-cover.jpg">
+
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- Schema.org -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Md. Motasim Bin Kamal",
+  "jobTitle": "AI Automation Engineer",
+  "description": "AI Automation Engineer and Agent Developer specializing in n8n workflows, voice agents, and RAG pipelines, with 20+ years of enterprise infrastructure background.",
+  "url": "https://motasimbinkamal.dev/",
+  "email": "mailto:motasim92@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Rajshahi",
+    "addressCountry": "BD"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "KTH Royal Institute of Technology"},
+    {"@type": "CollegeOrUniversity", "name": "IT-BHU, Varanasi"}
+  ],
+  "knowsAbout": ["AI Agent Development", "n8n Automation", "Voice AI", "RAG Pipelines", "SQL Server Administration"]
+}
+</script>
+</head>
+<body>
+
+<!-- Scroll progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Custom cursor (desktop only) -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="logo-mark">MBK</span>
+      <span class="logo-divider"></span>
+      <span class="logo-text">automation<span class="accent-dot">.</span>engineer</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active" data-section="home">Home</a>
+      <a href="#about" class="nav-link" data-section="about">About</a>
+      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+      <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+      <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+      <a href="#notes" class="nav-link" data-section="notes">Notes</a>
+      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="assets/resume.pdf" class="btn btn-ghost" download>Résumé</a>
+      <a href="#contact" class="btn btn-primary">Book a call</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-grid"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <div class="hero-inner container">
+    <p class="eyebrow reveal-up"><span class="pulse-dot"></span> Available for automation &amp; agent-development work</p>
+
+    <h1 class="hero-title reveal-up" style="--d:0.08s">
+      AI Automation Engineer<br>
+      &amp; Agent Developer, building
+      <span class="typing-wrap"><span id="typingText" class="typing-text"></span><span class="typing-cursor">|</span></span>
+    </h1>
+
+    <p class="hero-sub reveal-up" style="--d:0.16s">
+      Twenty years of keeping enterprise databases and pharma plants running without
+      surprises. Now I build AI agents and n8n pipelines with the same instinct —
+      reliable first, clever second.
+    </p>
+
+    <div class="hero-cta reveal-up" style="--d:0.24s">
+      <a href="assets/resume.pdf" download class="btn btn-primary btn-lg">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v9m0 0L4.5 6.5M8 10l3.5-3.5M2 12.5v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Download résumé
+      </a>
+      <a href="#projects" class="btn btn-outline btn-lg">View projects</a>
+      <a href="#contact" class="btn btn-text btn-lg">Book a consultation →</a>
+    </div>
+
+    <div class="hero-social reveal-up" style="--d:0.32s">
+      <a href="#" class="social-icon" aria-label="GitHub" data-social="github"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.21 11.68.6.12.82-.27.82-.6 0-.3-.01-1.08-.02-2.12-3.34.75-4.04-1.66-4.04-1.66-.55-1.42-1.33-1.8-1.33-1.8-1.09-.77.08-.76.08-.76 1.2.09 1.84 1.26 1.84 1.26 1.07 1.87 2.8 1.33 3.49 1.02.11-.79.42-1.33.76-1.64-2.67-.31-5.47-1.37-5.47-6.08 0-1.34.46-2.44 1.22-3.3-.12-.31-.53-1.56.12-3.25 0 0 1-.33 3.3 1.26a11.2 11.2 0 0 1 6 0c2.3-1.59 3.3-1.26 3.3-1.26.65 1.69.24 2.94.12 3.25.76.86 1.22 1.96 1.22 3.3 0 4.72-2.81 5.77-5.49 6.07.43.38.81 1.13.81 2.28 0 1.65-.02 2.98-.02 3.38 0 .33.22.72.83.6C20.57 22.34 24 17.74 24 12.3 24 5.5 18.63 0 12 0Z"/></svg></a>
+      <a href="#" class="social-icon" aria-label="LinkedIn" data-social="linkedin"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.11 20.45H3.56V9h3.55v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.22.8 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z"/></svg></a>
+      <a href="#" class="social-icon" aria-label="YouTube" data-social="youtube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/></svg></a>
+      <a href="#" class="social-icon" aria-label="WhatsApp" data-social="whatsapp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.2-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.8 9.3 7.3c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3ZM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.2L2 22l4.9-1.3A10 10 0 0 0 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2Z"/></svg></a>
+    </div>
+
+    <div class="hero-stats reveal-up" style="--d:0.4s">
+      <div class="stat">
+        <span class="stat-num" data-count="20">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Years engineering experience</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="9">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">AI agents &amp; workflows shipped</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="99">0</span><span class="stat-plus">.9%</span>
+        <span class="stat-label">Uptime on production DB clusters</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-count="14">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Countries worked with</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about-grid">
+    <div class="about-visual reveal-on-scroll">
+      <div class="portrait-frame">
+        <div class="portrait-placeholder">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.4"/><path d="M4 20c0-3.9 3.6-7 8-7s8 3.1 8 7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span>Photo coming soon</span>
+        </div>
+        <div class="portrait-tag portrait-tag-1">Rajshahi, BD</div>
+        <div class="portrait-tag portrait-tag-2">n8n · Retell AI · RAG</div>
+      </div>
+    </div>
+
+    <div class="about-copy">
+      <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> About</p>
+      <h2 class="section-title reveal-on-scroll">From keeping pharma plants running to keeping AI agents running.</h2>
+
+      <div class="about-text reveal-on-scroll">
+        <p>I spent seven years teaching mechanical engineering and running maintenance
+        for Square Pharmaceuticals before I ever touched a production database. Then
+        I spent another twenty years as a SQL Server DBA — clustering, mirroring,
+        performance tuning, the unglamorous work of making sure nothing breaks at
+        3am. That background shapes how I build now.</p>
+
+        <p>When I started experimenting with n8n and voice agents, the appeal wasn't
+        the novelty. It was recognizing the same problem I'd solved for two decades:
+        systems that have to work when nobody's watching. A voice agent that drops a
+        booking, a workflow that silently fails on webhook 40 out of 100 — that's a
+        DBA's nightmare wearing an AI costume. So I build automations the way I built
+        database infrastructure: with logging, escalation paths, and a healthy
+        distrust of "it worked in testing."</p>
+
+        <p>Right now I'm full-time on the AI automation side — n8n and Make
+        workflows, Retell AI voice agents, RAG pipelines on Supabase, and whatever
+        integration a client's stack actually needs. If you want someone who'll
+        obsess over the failure cases as much as the demo, that's me.</p>
+      </div>
+
+      <div class="about-values reveal-on-scroll">
+        <div class="value-item">
+          <span class="value-num">01</span>
+          <div><h4>Reliability over novelty</h4><p>An agent that fails quietly is worse than no agent. I design for the edge cases first.</p></div>
+        </div>
+        <div class="value-item">
+          <span class="value-num">02</span>
+          <div><h4>Infrastructure instincts</h4><p>Twenty years of HA/DR thinking applied to webhooks, retries, and escalation logic.</p></div>
+        </div>
+        <div class="value-item">
+          <span class="value-num">03</span>
+          <div><h4>Ship, then iterate</h4><p>A working v1 with a JS array of projects beats a perfect spec that never deploys.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="skills" id="skills">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> Capabilities</p>
+    <h2 class="section-title reveal-on-scroll">What I actually work with.</h2>
+    <p class="section-sub reveal-on-scroll">Grouped by how I use them day to day, not by hype cycle.</p>
+
+    <div class="skills-grid" id="skillsGrid"><!-- injected by script.js --></div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="experience" id="experience">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> Career</p>
+    <h2 class="section-title reveal-on-scroll">Twenty-five years, five titles, one habit: don't let things break.</h2>
+
+    <div class="timeline" id="timelineList"><!-- injected by script.js --></div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="section-head-row">
+      <div>
+        <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> Selected work</p>
+        <h2 class="section-title reveal-on-scroll">Agents and workflows I've built.</h2>
+      </div>
+      <div class="project-filters reveal-on-scroll" id="projectFilters"><!-- injected --></div>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid"><!-- injected by script.js --></div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="certifications" id="certifications">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> Credentials</p>
+    <h2 class="section-title reveal-on-scroll">Education &amp; certifications.</h2>
+
+    <div class="certs-grid" id="certsGrid"><!-- injected by script.js --></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> How we could work together</p>
+    <h2 class="section-title reveal-on-scroll">Services.</h2>
+
+    <div class="services-grid" id="servicesGrid"><!-- injected by script.js --></div>
+  </div>
+</section>
+
+<!-- ============ NOTES (real build log, replaces fake blog/case studies) ============ -->
+<section class="notes" id="notes">
+  <div class="container">
+    <p class="eyebrow reveal-on-scroll"><span class="eyebrow-line"></span> Currently building</p>
+    <h2 class="section-title reveal-on-scroll">Recent builds &amp; what I learned.</h2>
+    <p class="section-sub reveal-on-scroll">No fake case studies with invented numbers here — just what I actually shipped recently.</p>
+
+    <div class="notes-grid" id="notesGrid"><!-- injected by script.js --></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-copy reveal-on-scroll">
+      <p class="eyebrow"><span class="eyebrow-line"></span> Get in touch</p>
+      <h2 class="section-title">Let's talk about what you're trying to automate.</h2>
+      <p class="section-sub">Fastest way to reach me is WhatsApp or email. I usually reply within a day.</p>
+
+      <ul class="contact-list">
+        <li>
+          <span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 6l9 6 9-6M3 6v12h18V6M3 6l9-3 9 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <a href="mailto:motasim92@gmail.com">motasim92@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.2-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.8 9.3 7.3c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3ZM12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.2L2 22l4.9-1.3A10 10 0 0 0 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2Z" fill="currentColor"/></svg></span>
+          <a href="tel:+8801720610836">+880 1720 610836 (Call / WhatsApp)</a>
+        </li>
+        <li>
+          <span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11Z" stroke="currentColor" stroke-width="1.4"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.4"/></svg></span>
+          <span>Rajshahi, Bangladesh — working with clients worldwide</span>
+        </li>
+      </ul>
+
+      <div class="contact-socials">
+        <a href="#" class="social-icon" data-social="github" aria-label="GitHub">GH</a>
+        <a href="#" class="social-icon" data-social="linkedin" aria-label="LinkedIn">Li</a>
+        <a href="#" class="social-icon" data-social="calendly" aria-label="Calendly">Cal</a>
+      </div>
+    </div>
+
+    <form class="contact-form reveal-on-scroll" id="contactForm">
+      <div class="form-row">
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" required placeholder="Your name">
+      </div>
+      <div class="form-row">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" required placeholder="you@company.com">
+      </div>
+      <div class="form-row">
+        <label for="cf-project">What are you trying to automate?</label>
+        <select id="cf-project" name="project">
+          <option value="voice-agent">Voice AI agent</option>
+          <option value="workflow">n8n / Make workflow automation</option>
+          <option value="rag">RAG / knowledge base chatbot</option>
+          <option value="dba">SQL Server / database consulting</option>
+          <option value="other">Something else</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="4" required placeholder="Tell me a bit about the problem..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-lg btn-full">
+        Send message
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 8h11m0 0L9 4m4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">MBK</span>
+      <p>AI Automation Engineer, based in Rajshahi, Bangladesh. Building reliable
+        agents and workflows for teams that need automation that actually holds up.</p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Site</h5>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Elsewhere</h5>
+      <a href="#" data-social="github">GitHub</a>
+      <a href="#" data-social="linkedin">LinkedIn</a>
+      <a href="#" data-social="youtube">YouTube</a>
+      <a href="mailto:motasim92@gmail.com">Email</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Md. Motasim Bin Kamal. All rights reserved.</span>
+    <span class="footer-tagline">Built with vanilla HTML / CSS / JS — no framework required.</span>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+  <svg width="18" height="18" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M8 3 3.5 7.5M8 3l4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
